@@ -32,8 +32,8 @@ Here are the default options for the plugin
 ```lua
 opts = {
     keymap = {
-    show = "<C-t>",
-    hide = "<C-t>",
+        show = "<C-t>",
+        hide = "<C-t>",
     },
     apperance = {
         height = math.floor(vim.o.lines / 4),
